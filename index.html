@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>LEARNING_LMS</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+
+    <!-- <div class="logo"> -->
+    <!-- <img src="logo.png" alt="Learnific Logo" /> -->
+    <!-- <span>Learnific</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="create.html">Create Course</a></li>
+      <li><a href="#cart">Cart</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div> -->
+  </nav>
+
+  <!-- Navbar -->
+
+
+  <!-- Filtering -->
+  <div id="search">
+    <select name="" id="">
+      <option value="">Filter By Level</option>
+      <option value="Advanced">Advanced</option>
+      <option value="Intermediate">Intermediate</option>
+    </select>
+    <input onInput="searchByTitle()" type="text" placeholder="Search By Title...">
+
+  </div>
+
+  <!-- Card Container -->
+  <div class="container">
+
+  </div>
+
+  <!-- <div class="course-card">
+    <div class="course-header">
+      <h2>Advanced Web Development with React</h2>
+    </div>
+    <div class="course-body">
+      <p><strong>Instructor:</strong> Dr. Emma Watson</p>
+      <p><strong>Total Lectures:</strong> 380</p>
+      <p><strong>Level:</strong> Advanced</p>
+      <p class="price"><strong>Price:</strong> ₹3299</p>
+      <p><strong>Total Hours:</strong> 65.5 hours</p>
+      <p class="best">Bestseller</p>
+    </div>
+    <div class="course-footer">
+      <span class="rating">★ 4.8</span>
+      <span class="reviews">352,456 reviews</span>
+    </div>
+    <button>Add to Cart</button>
+  </div> -->
+
+  <!-- Pagination -->
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section about">
+        <h2>About Us</h2>
+        <p>Welcome to our Learning Management System where knowledge meets accessibility. We’re dedicated to providing
+          top-notch educational resources to empower students everywhere.</p>
+      </div>
+
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#terms">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <p><strong>Email:</strong> support@lmswebsite.com</p>
+        <p><strong>Phone:</strong> +1 234 567 890</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 LMS Learning Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script type="module">
+    import loadNavbar, { toggleMenu } from './navbar.js';
+    loadNavbar();
+  </script>
+</body>
+
+</html>
